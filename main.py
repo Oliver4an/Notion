@@ -86,37 +86,38 @@ def db_req(DATABASE_ID,fname):
         # print(response.text)  # 打印响应的原始内容
 
 # 定義更新資料的函數
-def update_notion_page(page_id, property_name, new_value):
+def update_notion_page(buffer):
     type = [0,1,0]   
 
-    url = f"https://api.notion.com/v1/pages/{page_id}"
     
+    for b in buffer:
+        url = f"https://api.notion.com/v1/pages/{b['page_id']}"
     # 構建更新請求的 payload
-    payload = {
-        "properties": {
-            property_name: {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": new_value
+        payload = {
+            "properties": {
+                b['property_name']: {
+                    "rich_text": [
+                        {
+                            "text": {
+                                "content": b['new_value']
+                            }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
-    }
-    
-    # 發送 PUT 請求以更新頁面
-    response = requests.patch(url, headers=headers, data=json.dumps(payload))
-    
-    # 檢查請求是否成功
-    if response.status_code == 200:
-        p_log("Page updated successfully!",type)
-        # print("Page updated successfully!")
-    else:
-        p_log(f"Failed to update page. Status code: {response.status_code} \n {response.text}",type)
-        # print(f"Failed to update page. Status code: {response.status_code}")
-        # print(response.text)
+        
+        # 發送 PUT 請求以更新頁面
+        response = requests.patch(url, headers=headers, data=json.dumps(payload))
+        
+        # 檢查請求是否成功
+        if response.status_code == 200:
+            p_log("Page updated successfully!",type)
+            # print("Page updated successfully!")
+        else:
+            p_log(f"Failed to update page. Status code: {response.status_code} \n {response.text}",type)
+            # print(f"Failed to update page. Status code: {response.status_code}")
+            # print(response.text)
 
 
 # Custom Function
@@ -134,7 +135,7 @@ def datalize():
         data = data['results']
         # print(data)
 
-        junk_can =[]
+        d_list =[]
         # 創建 DataFrame
         i = 0
         for item in data:
@@ -145,10 +146,10 @@ def datalize():
             viewed = item["properties"]["Viewed"]["rich_text"][0]["plain_text"] if item["properties"]["Viewed"]["rich_text"] else "0"
             clicked = item["properties"]["Clicked"]["formula"]["number"]
             is_update = True if int(clicked) != 0 else False
-            junk_can.append({"id":id,"Title": title,"Label":label,"Viewed":viewed,"Clicked": clicked , "is_update":is_update})
+            d_list.append({"id":id,"Title": title,"Label":label,"Viewed":viewed,"Clicked": clicked , "is_update":is_update})
             i+=1
 
-        df = pd.DataFrame(junk_can)
+        df = pd.DataFrame(d_list)
         df =  df.sort_index(ascending=False).reset_index(drop=True)
 
         p_log("\n %s" %df,type)
@@ -202,7 +203,8 @@ def junk_collection() -> bool:
 
 def delete_page(junk_can) -> bool:
     type = [0,1,0]
-    for id  in junk_can:
+    for id in junk_can:
+        
         url = f"https://api.notion.com/v1/pages/{id}"
     
         # 構建更新請求的 payload
@@ -218,16 +220,22 @@ def delete_page(junk_can) -> bool:
             p_log("Junk page %s deleted successfully!" % id,type)
             time.sleep(5)
             # print("Junk page %s deleted successfully!" % id,type)
+         
         else:
             p_log(f"{id} Failed to deleted Junk page. Status code:  {response.status_code} \n {response.text}",type)
             # print(f"%s Failed to deleted Junk page. Status code:  {response.status_code}" % id)
             # print(response.text)
+    junk_can.clear()
+    print(len(junk_can))
+
+        
 
         
 
 def update(df):
     type = [0,0,1]
     # `page_id` 是要更新的頁面 ID，`property_name` 是欄位名稱，`new_value` 是新的值
+    u_buffer = []
     for idx in range(len(df)):
         if(df.iloc[idx]['is_update']):    
             page_id = df.iloc[idx]['id']
@@ -235,52 +243,60 @@ def update(df):
             new_value = str(int(df.iloc[idx]['Viewed'])+int(df.iloc[idx]['Clicked']))
             # print(page_id,property_name,new_value)
             p_log(f"{page_id},{property_name},{new_value}",type)
-
+            u_buffer.append({'page_id':page_id,'property_name':property_name,'new_value':new_value})
             # 獲取並打印所有頁面的 ID
-            update_notion_page(page_id, property_name, new_value)
+            update_notion_page(u_buffer)
 
 
 def main():
+    type =[0,0,1]
     # t = 0
     # print("Time Quantum: %d\n" % t)
     db_req(JUNK_DB_ID,"JDB")
     junk_collection()
     p_log("jc: %s" % junk_can,type)
     # print("jc: %s" % junk_can)
-    if(len(junk_can)) > 0:
-        t = 10
-        db_req(JUNK_DB_ID,"JDB")
+    if(len(junk_can)) > 0: 
         db_req(DATABASE_ID,"KDB")
         update(datalize())
         delete_page(junk_can)
+    time.sleep(20)
     # else:
-        # t = 0
-        # time.sleep(t)   
+  
         
-    junk_can.clear()
+    
+    print(junk_can)
             
 
 
         
 
-def scheduled_task():
-    print("Scheduled task running...")
+# def scheduled_task():
+#     print("Scheduled task running...")
+#     main()
+
+# scheduler = BackgroundScheduler()
+# scheduler.add_job(func=scheduled_task, trigger="interval", seconds=10)
+# scheduler.start()
+
+# @app.route('/')
+# def home():
+#     return "Flask is running with a scheduled task!"
+
+
+
+
+# if __name__ == '__main__':
+#     try:
+#         app.run(debug=True)
+#     except (KeyboardInterrupt, SystemExit):
+#         # Shut down the scheduler gracefully when exiting the app
+#         scheduler.shutdown()
+while(True):
     main()
-
-scheduler = BackgroundScheduler()
-scheduler.add_job(func=scheduled_task, trigger="interval", seconds=45)
-scheduler.start()
-
-@app.route('/')
-def home():
-    return "Flask is running with a scheduled task!"
-
-
-
-
-if __name__ == '__main__':
-    try:
-        app.run(debug=True)
-    except (KeyboardInterrupt, SystemExit):
-        # Shut down the scheduler gracefully when exiting the app
-        scheduler.shutdown()
+        # db_req(JUNK_DB_ID,"JDB")
+        # junk_collection()
+        # p_log("jc: %s" % junk_can,type)
+        # db_req(DATABASE_ID,"KDB")
+        # update(datalize())
+        # delete_page(junk_can)
