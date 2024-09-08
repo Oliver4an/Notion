@@ -1,0 +1,518 @@
+[2024-09-08 13:09:00.967538] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:09:00.968350] [system] --> jc: ['956a995f-e470-419f-9716-cdf1b15cc5c6', '3b4e5b50-5d7c-4ce9-8066-e0c52528d9b7'] 
+
+[2024-09-08 13:09:02.108526] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:09:02.118261] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others    0\n        2       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      1        0      False
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      2        0      False
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      1        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:09:02.119030] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,2 
+
+[2024-09-08 13:09:02.945686] [write] --> Page updated successfully! 
+
+[2024-09-08 13:09:03.774593] [write] --> Junk page 956a995f-e470-419f-9716-cdf1b15cc5c6 deleted successfully! 
+
+[2024-09-08 13:09:12.182351] [write] --> Junk page 3b4e5b50-5d7c-4ce9-8066-e0c52528d9b7 deleted successfully! 
+
+[2024-09-08 13:10:56.859234] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:10:56.860631] [system] --> jc: [] 
+
+[2024-09-08 13:11:42.111862] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:11:42.112319] [system] --> jc: [] 
+
+[2024-09-08 13:13:55.134412] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:13:55.135304] [system] --> jc: [] 
+
+[2024-09-08 13:14:25.246769] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:14:25.248212] [system] --> jc: [] 
+
+[2024-09-08 13:14:55.013306] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:14:55.013785] [system] --> jc: [] 
+
+[2024-09-08 13:15:28.540224] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:15:28.540721] [system] --> jc: ['15397c8f-4953-4623-baa5-f0298690ca73'] 
+
+[2024-09-08 13:15:29.176454] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:15:29.194767] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others      2        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      1        0      False
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      2        0      False
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      1        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:15:29.195953] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,3 
+
+[2024-09-08 13:15:30.973245] [write] --> Page updated successfully! 
+
+[2024-09-08 13:15:34.698547] [write] --> Junk page 15397c8f-4953-4623-baa5-f0298690ca73 deleted successfully! 
+
+[2024-09-08 13:16:10.408998] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:16:10.409980] [system] --> jc: ['65026a31-ae08-4838-aea7-c4b7b41835bf', 'ab7a58db-43be-423e-ba0f-d626989642c8', 'f1b8ebde-c612-4ada-8207-a533c99e7b4f', 'cb984907-6230-47ee-9fd9-6d5d49a5013b', '8b375d99-9675-4c29-951e-e4f3a45f5782', 'b977da11-fed6-4f91-9897-643982aa9446', 'cab8bf72-fee6-4644-89b8-fefcf47a9d3b'] 
+
+[2024-09-08 13:16:10.862475] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:16:10.874195] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others      3        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      1        3       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      2        2       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      1        1       True
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:16:10.875536] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,4 
+
+[2024-09-08 13:16:12.007236] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:12.008172] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,4 
+
+[2024-09-08 13:16:12.483152] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:13.675072] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:13.676858] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,4 
+
+[2024-09-08 13:16:14.206129] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:14.786603] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:15.330105] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:15.331990] [system] --> 6efc8b17-9984-4fd8-97bf-0377fc893ea5,Viewed,2 
+
+[2024-09-08 13:16:15.940511] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:16.834043] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:17.419961] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:17.928257] [write] --> Page updated successfully! 
+
+[2024-09-08 13:16:19.155354] [write] --> Junk page 65026a31-ae08-4838-aea7-c4b7b41835bf deleted successfully! 
+
+[2024-09-08 13:16:24.795218] [write] --> Junk page ab7a58db-43be-423e-ba0f-d626989642c8 deleted successfully! 
+
+[2024-09-08 13:16:30.609144] [write] --> Junk page f1b8ebde-c612-4ada-8207-a533c99e7b4f deleted successfully! 
+
+[2024-09-08 13:16:36.657224] [write] --> Junk page cb984907-6230-47ee-9fd9-6d5d49a5013b deleted successfully! 
+
+[2024-09-08 13:16:42.502620] [write] --> Junk page 8b375d99-9675-4c29-951e-e4f3a45f5782 deleted successfully! 
+
+[2024-09-08 13:16:48.591307] [write] --> Junk page b977da11-fed6-4f91-9897-643982aa9446 deleted successfully! 
+
+[2024-09-08 13:16:54.309441] [write] --> Junk page cab8bf72-fee6-4644-89b8-fefcf47a9d3b deleted successfully! 
+
+[2024-09-08 13:17:25.066440] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:17:25.067025] [system] --> jc: ['4381226e-a835-48a5-bcc0-413ff2bd4aa0', 'b59e83c2-a334-4ea0-9781-a89dd56813d6', '3c2f1f03-54c1-437b-bc94-31bb25c8fb3a', 'c02213d0-b95d-411f-9df3-8168e0971f8d', 'ad24a2a7-f613-4ff3-9598-183f24464021', 'fb95dc3e-550e-4564-9c46-266289ea7438', '78ce8dbd-cd9f-4b05-aa17-f038ff97dae0', '5d06aa6d-0d66-4c3a-af60-7e7090bc67b0'] 
+
+[2024-09-08 13:17:25.579107] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:17:25.590369] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others      4        4       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      4        3       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      4        1       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:17:25.591758] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,8 
+
+[2024-09-08 13:17:26.395508] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:26.397548] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,7 
+
+[2024-09-08 13:17:28.448505] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:29.073280] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:29.075147] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,5 
+
+[2024-09-08 13:17:30.483881] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:30.980193] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:31.608458] [write] --> Page updated successfully! 
+
+[2024-09-08 13:17:32.273169] [write] --> Junk page 4381226e-a835-48a5-bcc0-413ff2bd4aa0 deleted successfully! 
+
+[2024-09-08 13:17:37.935586] [write] --> Junk page b59e83c2-a334-4ea0-9781-a89dd56813d6 deleted successfully! 
+
+[2024-09-08 13:17:43.702634] [write] --> Junk page 3c2f1f03-54c1-437b-bc94-31bb25c8fb3a deleted successfully! 
+
+[2024-09-08 13:17:49.797142] [write] --> Junk page c02213d0-b95d-411f-9df3-8168e0971f8d deleted successfully! 
+
+[2024-09-08 13:17:56.224158] [write] --> Junk page ad24a2a7-f613-4ff3-9598-183f24464021 deleted successfully! 
+
+[2024-09-08 13:18:01.822291] [write] --> Junk page fb95dc3e-550e-4564-9c46-266289ea7438 deleted successfully! 
+
+[2024-09-08 13:18:07.730191] [write] --> Junk page 78ce8dbd-cd9f-4b05-aa17-f038ff97dae0 deleted successfully! 
+
+[2024-09-08 13:18:13.236981] [write] --> Junk page 5d06aa6d-0d66-4c3a-af60-7e7090bc67b0 deleted successfully! 
+
+[2024-09-08 13:18:40.049596] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:18:40.050460] [system] --> jc: ['9572bd23-0ef6-4703-99f2-ea1e0e7fec72', '0dcc07da-e568-49a2-91d0-539f69b433b2', '8ed73eed-64bd-4f1b-87ca-2b1a5e0b840a', 'b41e2e98-babe-4ea6-bcdf-a69cccf0c932'] 
+
+[2024-09-08 13:18:40.633573] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:18:40.644725] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others      8        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      7        1       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      5        2       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:18:40.645864] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,9 
+
+[2024-09-08 13:18:41.575559] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:41.576993] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,8 
+
+[2024-09-08 13:18:42.042532] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:42.718411] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:42.719620] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,7 
+
+[2024-09-08 13:18:43.294942] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:43.875433] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:44.732414] [write] --> Page updated successfully! 
+
+[2024-09-08 13:18:46.616057] [write] --> Junk page 9572bd23-0ef6-4703-99f2-ea1e0e7fec72 deleted successfully! 
+
+[2024-09-08 13:18:52.860552] [write] --> Junk page 0dcc07da-e568-49a2-91d0-539f69b433b2 deleted successfully! 
+
+[2024-09-08 13:18:58.344123] [write] --> Junk page 8ed73eed-64bd-4f1b-87ca-2b1a5e0b840a deleted successfully! 
+
+[2024-09-08 13:19:05.177814] [write] --> Junk page b41e2e98-babe-4ea6-bcdf-a69cccf0c932 deleted successfully! 
+
+[2024-09-08 13:19:40.125709] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:19:40.126607] [system] --> jc: [] 
+
+[2024-09-08 13:28:39.651138] [system] --> connection ! 
+
+[2024-09-08 13:28:40.068616] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:28:40.069374] [system] --> jc: [] 
+
+[2024-09-08 13:29:09.626253] [system] --> connection ! 
+
+[2024-09-08 13:29:09.929012] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:29:09.929505] [system] --> jc: [] 
+
+[2024-09-08 13:29:48.727436] [system] --> connection ! 
+
+[2024-09-08 13:29:49.105432] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:29:49.105633] [system] --> jc: [] 
+
+[2024-09-08 13:30:18.731518] [system] --> connection ! 
+
+[2024-09-08 13:30:19.214161] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:30:19.214920] [system] --> jc: [] 
+
+[2024-09-08 13:30:48.727090] [system] --> connection ! 
+
+[2024-09-08 13:30:49.303591] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:30:49.304301] [system] --> jc: [] 
+
+[2024-09-08 13:33:38.549383] [system] --> connection ! 
+
+[2024-09-08 13:33:38.871023] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:33:38.871211] [system] --> jc: [] 
+
+[2024-09-08 13:34:08.545075] [system] --> connection ! 
+
+[2024-09-08 13:34:08.819670] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:34:08.819837] [system] --> jc: [] 
+
+[2024-09-08 13:34:38.540408] [system] --> connection ! 
+
+[2024-09-08 13:34:38.849361] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:34:38.849539] [system] --> jc: [] 
+
+[2024-09-08 13:35:08.546951] [system] --> connection ! 
+
+[2024-09-08 13:35:08.914085] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:35:08.914999] [system] --> jc: [] 
+
+[2024-09-08 13:48:35.464551] [system] --> connection ! 
+
+[2024-09-08 13:48:38.109624] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:48:38.110434] [system] --> jc: ['249ff11f-ce6c-4d12-8825-d5a2600b427c', '9729996f-39a7-4d7c-aabd-854b4b8dada0', 'b454903e-9a5f-4f97-8993-95cdeb11f1ab'] 
+
+[2024-09-08 13:48:38.765293] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:48:38.788388] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others      9        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      8        1       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      7        1       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:48:38.789639] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,10 
+
+[2024-09-08 13:48:39.458295] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:39.459930] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,9 
+
+[2024-09-08 13:48:39.925883] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:40.992483] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:40.994073] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,8 
+
+[2024-09-08 13:48:41.508920] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:42.059583] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:42.759138] [write] --> Page updated successfully! 
+
+[2024-09-08 13:48:43.244629] [write] --> Junk page 249ff11f-ce6c-4d12-8825-d5a2600b427c deleted successfully! 
+
+[2024-09-08 13:48:48.992881] [write] --> Junk page 9729996f-39a7-4d7c-aabd-854b4b8dada0 deleted successfully! 
+
+[2024-09-08 13:48:57.072754] [write] --> Junk page b454903e-9a5f-4f97-8993-95cdeb11f1ab deleted successfully! 
+
+[2024-09-08 13:49:35.480152] [system] --> connection ! 
+
+[2024-09-08 13:49:36.263740] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:49:36.264642] [system] --> jc: ['7226e3dc-579b-440c-b9c5-db40e4fbea63', 'c6225db6-ff1d-499e-99e9-93a34e74615b', 'aeb0c52d-fd7c-40e4-97ba-3cafcea2adb7'] 
+
+[2024-09-08 13:49:37.374870] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:49:37.385483] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others     10        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None      9        1       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      8        1       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:49:37.386264] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,11 
+
+[2024-09-08 13:49:38.037035] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:38.037621] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,10 
+
+[2024-09-08 13:49:38.508126] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:39.515593] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:39.516374] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,9 
+
+[2024-09-08 13:49:40.305616] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:41.008420] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:41.975792] [write] --> Page updated successfully! 
+
+[2024-09-08 13:49:43.192412] [write] --> Junk page 7226e3dc-579b-440c-b9c5-db40e4fbea63 deleted successfully! 
+
+[2024-09-08 13:49:48.693630] [write] --> Junk page c6225db6-ff1d-499e-99e9-93a34e74615b deleted successfully! 
+
+[2024-09-08 13:49:54.569975] [write] --> Junk page aeb0c52d-fd7c-40e4-97ba-3cafcea2adb7 deleted successfully! 
+
+[2024-09-08 13:55:32.332353] [system] --> connection ! 
+
+[2024-09-08 13:55:34.972893] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:55:34.973335] [system] --> jc: [] 
+
+[2024-09-08 13:59:17.664512] [system] --> connection ! 
+
+[2024-09-08 13:59:19.681025] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 13:59:19.682120] [system] --> jc: ['98da679d-2721-41be-9490-23a07314d4cd', '1bdbf88f-f7d7-465d-a380-871be6da9fd4', '904ae806-34a6-492d-b58f-7bb9a8052ff5'] 
+
+[2024-09-08 13:59:20.491775] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 13:59:20.508234] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others     11        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None     10        1       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None      9        1       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 13:59:20.509279] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,12 
+
+[2024-09-08 13:59:21.941473] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:21.943199] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,11 
+
+[2024-09-08 13:59:22.593152] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:23.539737] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:23.540417] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,10 
+
+[2024-09-08 13:59:24.268885] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:25.060285] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:25.817270] [write] --> Page updated successfully! 
+
+[2024-09-08 13:59:27.678127] [write] --> Junk page 98da679d-2721-41be-9490-23a07314d4cd deleted successfully! 
+
+[2024-09-08 13:59:33.827425] [write] --> Junk page 1bdbf88f-f7d7-465d-a380-871be6da9fd4 deleted successfully! 
+
+[2024-09-08 14:01:00.841586] [write] --> Junk page 904ae806-34a6-492d-b58f-7bb9a8052ff5 deleted successfully! 
+
+[2024-09-08 14:01:32.338672] [system] --> connection ! 
+
+[2024-09-08 14:01:32.853473] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 14:01:32.854349] [system] --> jc: ['da289120-f65b-4100-bec6-62522f779b3a', 'b76c5e22-936e-4444-bb63-e96f851ae96c', 'a7f3e6ff-5f28-4100-9873-0b86bdff6e73'] 
+
+[2024-09-08 14:01:34.005830] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 14:01:34.017209] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others     12        1       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None     11        1       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None     10        1       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 14:01:34.018278] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,13 
+
+[2024-09-08 14:01:35.397874] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:35.399580] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,12 
+
+[2024-09-08 14:01:36.119949] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:36.939624] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:36.941383] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,11 
+
+[2024-09-08 14:01:37.604939] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:38.235891] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:39.882228] [write] --> Page updated successfully! 
+
+[2024-09-08 14:01:40.673407] [write] --> Junk page da289120-f65b-4100-bec6-62522f779b3a deleted successfully! 
+
+[2024-09-08 14:01:46.384654] [write] --> Junk page b76c5e22-936e-4444-bb63-e96f851ae96c deleted successfully! 
+
+[2024-09-08 14:05:42.753452] [write] --> Junk page a7f3e6ff-5f28-4100-9873-0b86bdff6e73 deleted successfully! 
+
+[2024-09-08 14:08:07.998640] [system] --> connection ! 
+
+[2024-09-08 14:08:12.067550] [read] --> JDB.JSON has been written into -> JDB.json 
+
+[2024-09-08 14:08:12.068567] [system] --> jc: ['577f85a8-7dc7-4042-af1e-a5b1cbf13adb', 'f6273509-6dc6-4583-b25d-924602c0d4c5', '15dc97bb-4403-4d90-ac90-56fe9082db75', '85d7bb7e-ea5a-4bbb-b5df-bc7f5af444a2', '645bdeb9-0162-4e5a-a25b-5d9610c4e84b', '40c7cb31-673e-44e4-a880-572ebe99905f'] 
+
+[2024-09-08 14:08:12.662857] [read] --> KDB.JSON has been written into -> KDB.json 
+
+[2024-09-08 14:08:12.671657] [system] --> 
+                                       id                 Title           Label Viewed  Clicked  is_update
+0   c7336471-9a5a-4f7f-8e95-a3baeab26131              四國地圖          Others     13        2       True
+1   da704bd7-554e-477d-bb68-a5c5d55c72c7                  Test            None     12        2       True
+2   e45478d4-d84c-4b72-9a56-cf2e9ec83ed3                 Test2            None     11        2       True
+3   48302e88-329f-4651-aa9b-8d29086d8625                 Test3            None      0        0      False
+4   6efc8b17-9984-4fd8-97bf-0377fc893ea5                 test4            None      2        0      False
+5   7d7c5ae8-e0ec-4bdb-915a-319eb9d24362                 test5            None      2        0      False
+6   e58b3779-9528-48ad-8938-3fbad94c4147        相似的必要條件  Linear Algebra      0        0      False
+7   3478f413-2efd-44e0-a588-b354d9e91db2      不變子空間的定義  Linear Algebra      1        0      False
+8   eed36e93-4fe4-4421-b8d8-f33ec614d175  已經學過的不變子空間  Linear Algebra      1        0      False
+9   c8339088-01e0-4346-8077-c34fe4651543      對角化的充要條件  Linear Algebra      0        0      False
+10  0f1c25d3-f19f-4a97-9cbf-d5b1a1d846df    幾何重數的等價意義  Linear Algebra      0        0      False 
+
+[2024-09-08 14:08:12.672281] [system] --> c7336471-9a5a-4f7f-8e95-a3baeab26131,Viewed,15 
+
+[2024-09-08 14:08:15.086757] [write] --> Page updated successfully! 
+
+[2024-09-08 14:08:15.088426] [system] --> da704bd7-554e-477d-bb68-a5c5d55c72c7,Viewed,14 
+
+[2024-09-08 14:08:15.784258] [write] --> Page updated successfully! 
+
+[2024-09-08 14:08:16.816771] [write] --> Page updated successfully! 
+
+[2024-09-08 14:08:16.818802] [system] --> e45478d4-d84c-4b72-9a56-cf2e9ec83ed3,Viewed,13 
+

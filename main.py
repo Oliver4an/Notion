@@ -1,10 +1,11 @@
-from flask import Flask, jsonify, request 
+import os
+import socket
 import time ,requests ,json
 import pandas as pd
 from datetime import datetime
+from apscheduler.triggers.cron import CronTrigger
 from apscheduler.schedulers.background import BackgroundScheduler
 
-app = Flask(__name__)
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -31,6 +32,14 @@ headers = {
 }
 
 #[read,write,sys]
+
+def is_connected():
+    try:
+        # 尝试连接到 Google DNS（8.8.8.8）端口 53
+        socket.create_connection(("8.8.8.8", 53), timeout=5)
+        return True
+    except OSError:
+        return False
 
 def p_log(msg,type):
     tp = ''
@@ -227,10 +236,7 @@ def delete_page(junk_can) -> bool:
             # print(response.text)
     junk_can.clear()
     print(len(junk_can))
-
-        
-
-        
+      
 
 def update(df):
     type = [0,0,1]
@@ -248,20 +254,38 @@ def update(df):
             update_notion_page(u_buffer)
 
 
+def delete_plog():
+    type = [0,0,1]
+    # 文件路径
+    FILE_PATH = ['./log.txt','./nohub.out']
+    
+    for f in FILE_PATH:
+        if os.path.exists(FILE_PATH):
+            try:
+                os.remove(FILE_PATH)
+                p_log(f"File {FILE_PATH} has been deleted.",type)
+            except Exception as e:
+                p_log(f"An error occurred while deleting the file: {e}",type)
+        else:
+            p_log(f"File {FILE_PATH} does not exist.",type)
+
 def main():
     type =[0,0,1]
     # t = 0
     # print("Time Quantum: %d\n" % t)
-    db_req(JUNK_DB_ID,"JDB")
-    junk_collection()
-    p_log("jc: %s" % junk_can,type)
-    # print("jc: %s" % junk_can)
-    if(len(junk_can)) > 0: 
-        db_req(DATABASE_ID,"KDB")
-        update(datalize())
-        delete_page(junk_can)
-    time.sleep(20)
-    # else:
+    if is_connected():
+        p_log("connection !",type)
+        db_req(JUNK_DB_ID,"JDB")
+        junk_collection()
+        p_log("jc: %s" % junk_can,type)
+        # print("jc: %s" % junk_can)
+        if(len(junk_can)) > 0: 
+            db_req(DATABASE_ID,"KDB")
+            update(datalize())
+            delete_page(junk_can)
+        time.sleep(20)
+    else:
+        p_log("Not connected to the internet",type)
   
         
     
@@ -269,34 +293,20 @@ def main():
             
 
 
-        
+scheduler = BackgroundScheduler()
+scheduler.add_job(main, 'interval', seconds=15)
 
-# def scheduled_task():
-#     print("Scheduled task running...")
-#     main()
+# 添加每周一次的任务
+scheduler.add_job(delete_plog, CronTrigger(day_of_week='mon', hour=0, minute=0))
 
-# scheduler = BackgroundScheduler()
-# scheduler.add_job(func=scheduled_task, trigger="interval", seconds=10)
-# scheduler.start()
-
-# @app.route('/')
-# def home():
-#     return "Flask is running with a scheduled task!"
+scheduler.start()
 
 
-
-
-# if __name__ == '__main__':
-#     try:
-#         app.run(debug=True)
-#     except (KeyboardInterrupt, SystemExit):
-#         # Shut down the scheduler gracefully when exiting the app
-#         scheduler.shutdown()
-while(True):
-    main()
-        # db_req(JUNK_DB_ID,"JDB")
-        # junk_collection()
-        # p_log("jc: %s" % junk_can,type)
-        # db_req(DATABASE_ID,"KDB")
-        # update(datalize())
-        # delete_page(junk_can)
+# Keep the script running
+try:
+    while True:
+        time.sleep(1)
+except (KeyboardInterrupt, SystemExit):
+    scheduler.shutdown()
+    
+# caffeinate -i nohup python3 main.py >> nohup.out 2>&1 & 
